@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row" style="margin-top: 10%">
+        <div class="col">
+            <div class="card card-body text-center page_block">
+                <div class="row">
+                     <div class="col-8 text-end"><b> Всемирная библиотека!</b></div>
+                     <div class="col text-end "><button  onclick="nagrady('')" class="btn btn-outline-info "> <img  style="width: 30px" src="/static/image/star-medal.png">
+
+                     </button></div>
+                </div>
+
+
+
+                <div id="block">
+                    {% if  request.user.is_authenticated %}
+                        <div>
+                            <div><img height="200px" src="/static/image/security.svg"></div>
+                            <div>
+                                <h2 style="color: green"><b>Доступ разрешен!</b></h2>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div>
+                            <div><img height="200px" src="/static/image/shield.svg"></div>
+                            <div>
+                                <h2 style="color: brown"><b>Доступ запрещён!</b></h2>
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+
+        </div>
+        <div class="col-4 "  id="bloks_nagrady" style="display: none">
+            <div class="card card-body text-center page_block">
+                <div>
+                    <h2><b>Достижения!</b></h2>
+                    <div  class="row" id="nagrady"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

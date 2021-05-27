@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="row" style="margin-top: 10%">
+        <div class="col">
+            <div class="card card-body text-center page_block">
+                <div class="text-center mt-4">
+                    <div class="ms-auto me-auto" style="width: 300px">
+                        <h2><b>Регистриция</b></h2>
+                        <form method="post" href="{% url 'registration' %}">
+                            {% csrf_token %}
+                            {{ form.non_field_errors }}
+                            <div class="mt-4 ">
+
+                                {{ form.username }}
+
+                                {{ form.username.errors }}
+                            </div>
+                            <div class="mt-4">
+                                {{ form.first_name }}
+                                {{ form.first_name.errors }}
+                            </div>
+                            <div class="mt-2">
+                                {{ form.password }}
+                                {{ form.password.errors }}
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mt-4">Зарегистрироваться</button>
+                        </form>
+
+                        {#                        <form method="post" href="{% url 'registration' %}">#}
+                        {#                            {% csrf_token %}#}
+                        {#                            <div class="mt-4">#}
+                        {#                                <input name="username" placeholder="Логин пользователя" class="input100" autofocus#}
+                        {#                                       autocapitalize required>#}
+                        {##}
+                        {#                            </div>#}
+                        {#                            <div class="mt-4">#}
+                        {#                                <input name="first_name" placeholder="Имя пользователя" class="input100" autofocus#}
+                        {#                                       autocapitalize required>#}
+                        {##}
+                        {#                            </div>#}
+                        {#                            <div class="mt-2">#}
+                        {#                                <input name="password" placeholder="Пароль" type="password" class="input100" required>#}
+                        {#                            </div>#}
+                        {##}
+                        {#                            <button class="btn btn-primary w-100 mt-4">Авторизоваться</button>#}
+                        {#                        </form>#}
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

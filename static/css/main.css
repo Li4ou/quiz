@@ -1,0 +1,76 @@
+
+.page_block {
+    min-height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 825px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 10%), 0 10px 30px rgb(0 0 0 / 25%);
+}
+
+.toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0;
+    content: "";
+    border-top: 0.3em solid transparent;
+    border-right: 0;
+    border-bottom: 0.3em solid transparent;
+    border-left: 0.3em solid;
+}
+
+.input100 {
+    height: 40px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.popover-title {
+    text-align: center;
+    padding: 8px 14px;
+    margin: 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+
+
+}
+
+
+.Uncommon {
+    color:  #0A58C3;
+
+}
+
+.Uncommon:hover {
+    box-shadow: 0 2px 10px #0A58C3, 0 10px 30px #0A58C3;
+
+
+}
+
+
+.Rare {
+    color:rgb(5, 5, 245);
+}
+
+.Rare:hover {
+    box-shadow: 0 2px 10px rgb(5, 5, 245), 0 10px 30px rgb(5, 5, 245);
+
+}
+
+.pop {
+    text-align: left;
+}
+
+
+.Legendary {
+    color: #a600ff;
+}
+
+.Legendary:hover {
+    box-shadow: 0 2px 10px #a600ff, 0 10px 30px #a600ff;
+}
+
+ul.errorlist {
+    list-style-type: none;
+    padding: 0;
+}

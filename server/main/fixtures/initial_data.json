@@ -1,0 +1,1570 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Token",
+      "content_type": 7,
+      "codename": "add_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Token",
+      "content_type": 7,
+      "codename": "change_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Token",
+      "content_type": 7,
+      "codename": "delete_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Token",
+      "content_type": 7,
+      "codename": "view_token"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add token",
+      "content_type": 8,
+      "codename": "add_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change token",
+      "content_type": 8,
+      "codename": "change_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete token",
+      "content_type": 8,
+      "codename": "delete_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view token",
+      "content_type": 8,
+      "codename": "view_tokenproxy"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add answers",
+      "content_type": 9,
+      "codename": "add_answers"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change answers",
+      "content_type": 9,
+      "codename": "change_answers"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete answers",
+      "content_type": 9,
+      "codename": "delete_answers"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view answers",
+      "content_type": 9,
+      "codename": "view_answers"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Викторина",
+      "content_type": 10,
+      "codename": "add_quiz"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Викторина",
+      "content_type": 10,
+      "codename": "change_quiz"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Викторина",
+      "content_type": 10,
+      "codename": "delete_quiz"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Викторина",
+      "content_type": 10,
+      "codename": "view_quiz"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add results",
+      "content_type": 11,
+      "codename": "add_results"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change results",
+      "content_type": 11,
+      "codename": "change_results"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete results",
+      "content_type": 11,
+      "codename": "delete_results"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view results",
+      "content_type": 11,
+      "codename": "view_results"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add Вопрос",
+      "content_type": 12,
+      "codename": "add_questions"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change Вопрос",
+      "content_type": 12,
+      "codename": "change_questions"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete Вопрос",
+      "content_type": 12,
+      "codename": "delete_questions"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view Вопрос",
+      "content_type": 12,
+      "codename": "view_questions"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add Достижение",
+      "content_type": 13,
+      "codename": "add_achievements"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change Достижение",
+      "content_type": 13,
+      "codename": "change_achievements"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete Достижение",
+      "content_type": 13,
+      "codename": "delete_achievements"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view Достижение",
+      "content_type": 13,
+      "codename": "view_achievements"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add Прогрес",
+      "content_type": 14,
+      "codename": "add_progress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change Прогрес",
+      "content_type": 14,
+      "codename": "change_progress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete Прогрес",
+      "content_type": 14,
+      "codename": "delete_progress"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view Прогрес",
+      "content_type": 14,
+      "codename": "view_progress"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "authtoken",
+      "model": "token"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "authtoken",
+      "model": "tokenproxy"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "main",
+      "model": "answers"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "main",
+      "model": "quiz"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "main",
+      "model": "results"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "main",
+      "model": "questions"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "progress",
+      "model": "achievements"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+      "app_label": "progress",
+      "model": "progress"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "m1udkx2ujmnjlwymzacl2aeqr4ox4i1t",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAGBzq6dN8zkIFBqRpISrsy3l2bdKHb_977LxV4XUpYe57DJOqsQB1-t8jpkesG5M711nRqdZmnqDdF77TrsUl-Xnb376BwL9_aRjQmRwRCcMkDCR5JPKAZGLPLlq7GkbOWGYd4YpdYxBjPaBFJQL0_uh029A:1lkjtQ:qEqfT39ZtepAOoE962E6nYORGd3AF8jtcY9ybfrCXN8",
+      "expire_date": "2021-06-06T08:55:28.239Z"
+    }
+  },
+  {
+    "model": "main.quiz",
+    "pk": 1,
+    "fields": {
+      "name": "Лучший знаток сказок А.С. Пушкина",
+      "description": "Дорогой друг! Хорошо ли ты знаешь сказки А.С. Пушкина? Давай проверим! Быстрее бери в руки мышку!  Желаю удачи!",
+      "complexity": "1",
+      "achievements": 1
+    }
+  },
+  {
+    "model": "main.quiz",
+    "pk": 2,
+    "fields": {
+      "name": "Великий и могучий!",
+      "description": "10 вопросов на знание русского языка",
+      "complexity": "2",
+      "achievements": 4
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 1,
+    "fields": {
+      "text": "У реки",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 2,
+    "fields": {
+      "text": "У озера",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 3,
+    "fields": {
+      "text": "У моря",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 4,
+    "fields": {
+      "text": "У горы",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 5,
+    "fields": {
+      "text": "Воробья",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 6,
+    "fields": {
+      "text": "Пингвина",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 7,
+    "fields": {
+      "text": "Петушка",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 8,
+    "fields": {
+      "text": "Голубя",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 9,
+    "fields": {
+      "text": "Зайца",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 10,
+    "fields": {
+      "text": "Лису",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 11,
+    "fields": {
+      "text": "Быка",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 12,
+    "fields": {
+      "text": "Медведя",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 13,
+    "fields": {
+      "text": "Святогор",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 14,
+    "fields": {
+      "text": "Ярослав",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 15,
+    "fields": {
+      "text": "Олег",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 16,
+    "fields": {
+      "text": "Руслан",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 17,
+    "fields": {
+      "text": "У козлика",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 18,
+    "fields": {
+      "text": "У зеркальца",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 19,
+    "fields": {
+      "text": "У колодца",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 20,
+    "fields": {
+      "text": "У рыбки",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 21,
+    "fields": {
+      "text": "Суслик",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 22,
+    "fields": {
+      "text": "Мышка",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 23,
+    "fields": {
+      "text": "Белочка",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 24,
+    "fields": {
+      "text": "Соболь",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 25,
+    "fields": {
+      "text": "Дворец",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 26,
+    "fields": {
+      "text": "Титул",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 27,
+    "fields": {
+      "text": "Золото",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 28,
+    "fields": {
+      "text": "Корыто",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 29,
+    "fields": {
+      "text": "Звездочёт",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 30,
+    "fields": {
+      "text": "Царевна",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 31,
+    "fields": {
+      "text": "Белочка",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 32,
+    "fields": {
+      "text": "Черномор",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 33,
+    "fields": {
+      "text": "С дельфином",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 34,
+    "fields": {
+      "text": "С коньком-горбунком",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 35,
+    "fields": {
+      "text": "С чертёнком",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 36,
+    "fields": {
+      "text": "С русалкой",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 37,
+    "fields": {
+      "text": "Коршуна",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 38,
+    "fields": {
+      "text": "Волка",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 39,
+    "fields": {
+      "text": "Ястреба",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 40,
+    "fields": {
+      "text": "Ворону",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 41,
+    "fields": {
+      "text": "Живой воды",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 42,
+    "fields": {
+      "text": "Иглы",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 43,
+    "fields": {
+      "text": "Поцелуя",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 44,
+    "fields": {
+      "text": "Колдуна",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 45,
+    "fields": {
+      "text": "Увы",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 46,
+    "fields": {
+      "text": "Физкульт-привет",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 47,
+    "fields": {
+      "text": "Авось",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 48,
+    "fields": {
+      "text": "Несколько башен",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 49,
+    "fields": {
+      "text": "Несколько кочерег",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 50,
+    "fields": {
+      "text": "Несколько вальтов",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 51,
+    "fields": {
+      "text": "Два мужчины",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 52,
+    "fields": {
+      "text": "Двое мужчин",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 53,
+    "fields": {
+      "text": "Можно и так, и так",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 54,
+    "fields": {
+      "text": "Под Бородино",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 55,
+    "fields": {
+      "text": "Под Бородином",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 56,
+    "fields": {
+      "text": "Под Бородиным",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 57,
+    "fields": {
+      "text": "Пол-Чехии",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 58,
+    "fields": {
+      "text": "Пол-лекции",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 59,
+    "fields": {
+      "text": "Пол-четверти",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 60,
+    "fields": {
+      "text": "Употребляться в сложносоставных словах",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 61,
+    "fields": {
+      "text": "Использоваться в качестве знака переноса",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 62,
+    "fields": {
+      "text": "Обозначать маршруты",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 63,
+    "fields": {
+      "text": "\"И видел он себя богатым_ как во сне\". (Крылов)",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 64,
+    "fields": {
+      "text": "\"Руки его дрожали_ как ртуть\". (Гоголь)",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 65,
+    "fields": {
+      "text": "\"Я говорю_ как литератор\". (Горький)",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 66,
+    "fields": {
+      "text": "В итоге",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 67,
+    "fields": {
+      "text": "По всей видимости",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 68,
+    "fields": {
+      "text": "В первую очередь",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 69,
+    "fields": {
+      "text": "Фальстарт",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 70,
+    "fields": {
+      "text": "Каппучино",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 71,
+    "fields": {
+      "text": "Координально",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 72,
+    "fields": {
+      "text": "Пурпур",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 73,
+    "fields": {
+      "text": "Фетиш",
+      "correct": true
+    }
+  },
+  {
+    "model": "main.answers",
+    "pk": 74,
+    "fields": {
+      "text": "Латте",
+      "correct": false
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 1,
+    "fields": {
+      "text": "Где жили старик со старухой?",
+      "quiz": 1,
+      "answer": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 2,
+    "fields": {
+      "text": "Какую птицу приобрёл царь Дадон, чтобы  спасаться от врага?",
+      "quiz": 1,
+      "answer": [
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 3,
+    "fields": {
+      "text": "Кого Балда взял к себе в братья, чтобы обмануть чёрта?",
+      "quiz": 1,
+      "answer": [
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 4,
+    "fields": {
+      "text": "Кто стал мужем Людмилы?",
+      "quiz": 1,
+      "answer": [
+        13,
+        14,
+        15,
+        16
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 5,
+    "fields": {
+      "text": "У кого спрашивала царица о том, кто на свете всех милее?",
+      "quiz": 1,
+      "answer": [
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 6,
+    "fields": {
+      "text": "Какое животное в одной из сказок  пело песенки и грызло орешки?",
+      "quiz": 1,
+      "answer": [
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 7,
+    "fields": {
+      "text": "Какой самый первый предмет потребовала  старуха у золотой",
+      "quiz": 1,
+      "answer": [
+        25,
+        26,
+        27,
+        28
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 8,
+    "fields": {
+      "text": "Кто помог царю Дадону приобрести  птицу, предупреждающую об опасности?",
+      "quiz": 1,
+      "answer": [
+        29,
+        30,
+        31,
+        32
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 9,
+    "fields": {
+      "text": "С кем Балда соревновался на море?",
+      "quiz": 1,
+      "answer": [
+        33,
+        34,
+        35,
+        36
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 10,
+    "fields": {
+      "text": "Кого убил князь Гвидон, чтобы спасти царевну Лебедь?",
+      "quiz": 1,
+      "answer": [
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 11,
+    "fields": {
+      "text": "С помощью чего С помощью королевич Елисей оживил свою невесту?",
+      "quiz": 1,
+      "answer": [
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 12,
+    "fields": {
+      "text": "Предлагаем начать с простого – определения частей речи. Одно из этих слов не является междометием:",
+      "quiz": 2,
+      "answer": [
+        45,
+        46,
+        47
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 13,
+    "fields": {
+      "text": "Когда предмет в единственном числе, просклонять его не представляется проблемой. При использовании множественного числа ошибиться гораздо проще. Например, ошибочной будет форма:",
+      "quiz": 2,
+      "answer": [
+        48,
+        49,
+        50
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 14,
+    "fields": {
+      "text": "Иногда сложности вызывает и необходимость сосчитать что-либо или кого-либо. Из нижеперечисленных правильным будет вариант:",
+      "quiz": 2,
+      "answer": [
+        51,
+        52,
+        53
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 15,
+    "fields": {
+      "text": "В современном русском языке широко распространены случаи вариативного написания тех или иных слов. Тем не менее в соответствии со строгими литературными нормами, одно из исторических сражений могло происходить:",
+      "quiz": 2,
+      "answer": [
+        54,
+        55,
+        56
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 16,
+    "fields": {
+      "text": "Правила русского языка не всегда отличаются единообразием. Вот и одно из этих слов написано с ошибкой:",
+      "quiz": 2,
+      "answer": [
+        57,
+        58,
+        59
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 17,
+    "fields": {
+      "text": "Тире от дефиса отличается не только происхождением (первое от французского \"тянуть\", второе от немецкого \"деление\"), но и правилами использования. В частности, в обязанности дефиса не входит:",
+      "quiz": 2,
+      "answer": [
+        60,
+        61,
+        62
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 18,
+    "fields": {
+      "text": "Использование союза \"как\" еще одна болевая точка для изучающих русский язык. В этом случае перед ним запятую ставить не нужно:",
+      "quiz": 2,
+      "answer": [
+        63,
+        64,
+        65
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 19,
+    "fields": {
+      "text": "Еще немного пунктуации. Запятая нужна только после одного из этих выражений, и это:",
+      "quiz": 2,
+      "answer": [
+        66,
+        67,
+        68
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 20,
+    "fields": {
+      "text": "Часто путаница возникает при написании слов иноязычного происхождения. Из нижеперечисленных лишь одно написано правильно, это:",
+      "quiz": 2,
+      "answer": [
+        69,
+        70,
+        71
+      ]
+    }
+  },
+  {
+    "model": "main.questions",
+    "pk": 21,
+    "fields": {
+      "text": "Преодоление трудностей перевода не исключает последующих трудностей с ударением. Многие забывают, что в этом слове оно ставится на последний слог:",
+      "quiz": 2,
+      "answer": [
+        72,
+        73,
+        74
+      ]
+    }
+  },
+  {
+    "model": "progress.achievements",
+    "pk": 1,
+    "fields": {
+      "title": "Знаток сказок Пушкина!",
+      "type": "Uncommon",
+      "lvl": 2,
+      "balls": 40,
+      "description": "Ты ответил на все вопросы викторины верно!",
+      "image": "free-icon-poet-3062278_xU40irX.png"
+    }
+  },
+  {
+    "model": "progress.achievements",
+    "pk": 2,
+    "fields": {
+      "title": "Авторизованый!",
+      "type": "Commmon",
+      "lvl": 1,
+      "balls": 10,
+      "description": "Авторизированный пользователь - пользователь, прошедший авторизацию.",
+      "image": "checking-attendance_gTQGtti.png"
+    }
+  },
+  {
+    "model": "progress.achievements",
+    "pk": 3,
+    "fields": {
+      "title": "Незнайка!",
+      "type": "Legendary",
+      "lvl": 4,
+      "balls": 400,
+      "description": "Ты сделал невозможное! Ответил на все вопросы одной из викторин неверно.....",
+      "image": "neznaika_EJxN75H.png"
+    }
+  },
+  {
+    "model": "progress.achievements",
+    "pk": 4,
+    "fields": {
+      "title": "Знаток русского языка!",
+      "type": "Rare",
+      "lvl": 3,
+      "balls": 100,
+      "description": "Вы верно ответили на все вопросы викторины - \"Великий и могучий\"",
+      "image": "books.png"
+    }
+  }
+]
