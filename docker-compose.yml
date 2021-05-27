@@ -28,7 +28,7 @@ services:
         expose:
             - 8000
         depends_on:
-            "db":condition: service_healthy
+           - db
         environment:
             DEBUG: 'False'
             DATABASE_URL: 'postgres://postgres:@db:5432/postgres'
